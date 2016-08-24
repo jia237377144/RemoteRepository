@@ -1,4 +1,4 @@
-﻿sing System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +10,8 @@ namespace RemoteConsole
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Git+项目");
+            Console.ReadLine();
         }
     }
 }
